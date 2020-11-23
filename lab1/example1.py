@@ -1,8 +1,8 @@
-a=2
-b=6
-c= -20
-d= ((b**2)- (4*a*c))**0.5
-x1= (-b + (d))/(2*a) 
-print (x1)
-x2= (-b - (d))/ (2*a)
-print (x2)
+total_given_money= 80.96
+first_book_cost= 1
+first_sold_book= 1
+normal_book_cost= 19.99
+
+first_money= first_book_cost* first_sold_book
+book_count= (total_given_money-first_money)/normal_book_cost
+print (book_count)
